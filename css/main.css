@@ -16,8 +16,7 @@ body{
 
 
 
-/* --- INDEX.HTML --- */
-/* --- HEADER --- */
+/* --- INDEX HEADER --- */
 
 .header-container{
     width: 65%;
@@ -26,18 +25,19 @@ body{
     justify-content: space-between;
     align-items: center;
     margin: auto;
-    padding: 0px 40px;
+    padding: 0px 30px;
 }
 
 .logo{
-    width: 30%;
+    width: 25%;
     margin-top: 0;
 }
 
 .logo img{
-    width: 140px;
-    height: 100px;
+    width: 230px;
+    height: 90px;
     cursor: pointer;
+    padding: 5px;
 }
 
 .search{
@@ -64,7 +64,7 @@ body{
 }
 
 .social{
-    width: 10%;
+    width: 20%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -84,7 +84,7 @@ body{
 
 
 
-/* --- MAIN --- */
+/* --- INDEX MAIN --- */
 
 .main-container{
     width: 100%;
@@ -153,13 +153,13 @@ body{
 
 
 
-/* --- FOOTER --- */
+/* --- INDEX FOOTER --- */
 
 .footer-container{
     align-items: center;
 	background: #000000;
 	display: flex;
-	height: 15vh;
+	height: 10vh;
 	justify-content: center;
     margin-top: 35px;
     margin: auto;
@@ -171,7 +171,7 @@ body{
 }
 
 .section-brand{
-    background: #0000;
+    background: red;
 	box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
 	height: 80px;
 	margin: auto;
@@ -202,8 +202,8 @@ body{
 
 
 
-/* --- INDEX.HTML --- */
-/* --- MAIN --- */
+
+/* --- PRODUCTOS MAIN --- */
 
 .main-container-products{
     min-height: 100vh;
