@@ -49,7 +49,7 @@ const showMenuItems = (menu) => {
 
                 <div class="product-button">
                     <button class="whatsappButton" data-whatsapp="+51946556268" 
-                    data-message="Hola buenas, Estoy interesado en realizar la compra de este producto, ¿Cuál es el precio de dicho producto?.">
+                    data-message="Hola buenas, Estoy interesado en realizar la compra del producto ${el.title}.">
                         Comprar por WhatsApp
                     </button>    
                 </div>
